@@ -25,7 +25,7 @@ In order to run this application locally you'll need to have [Node.js](https://n
 Once you **clone or download** the repository files to your desired location, open a command-line terminal, navigate into the app top-level directory, and **install the required package dependencies**.   
 
 ```bash
-$ cd Simple-Blog-website-MongoDB-version  # or your chosen other directory name
+$ cd Simple-Blog-website  # or your chosen other directory name
 $ npm install             # install package dependencies
 ```
 
