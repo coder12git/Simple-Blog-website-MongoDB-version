@@ -1,0 +1,29 @@
+<%- include("partials/header") -%>
+
+<h1>Edit</h1>
+
+<form action="/editExistingPost" method="post" class="for">
+
+  <div class="form-group">
+    <div class="mb-3">
+      <label class="form-label">Title</label>
+      <input type="text" class="form-control" id="exampleFormControlInput1" name="postTitle" value="<%= input %>" readonly>
+    </div>
+
+    <div class="mb-3">
+      <label class="form-label">Post</label>
+      <textarea class="form-control" id="message" rows="15" name="postBody" required><%= text %></textarea>
+    </div>
+
+  </div>
+
+  <button type="submit"  class="btn btn-success btn-lg" >Update</button>
+
+</form>
+
+<form action="/cancelEdit" method="post" class="for">
+  <button type="submit" class="btn btn-danger btn-lg">Cancel</button>
+</form>
+
+
+<%- include("partials/footer") -%>

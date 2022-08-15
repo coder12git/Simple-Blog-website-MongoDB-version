@@ -1,0 +1,23 @@
+
+<%- include("partials/header") -%>
+<h1>Instructions</h1>
+<p>This is a simple blogging web application. Click on the <strong>'CREATE POST'</strong> link to create a new post with a title and a body. After
+you're done composing, click on <strong>'Publish'</strong> and you'll be redirected to the home page where a part of it will be displayed.
+There is also a <strong>'Cancel'</strong> button just after the <strong>'Publish'</strong> button which will redirect you to the home page without creating any
+new post. On the home page, click on the <strong>'Read More'</strong> link beside each post you create, and you'll navigate to the respective
+post's page with the fullpost body text shown. While there, you can either click on <strong>'Delete'</strong> button to delete the
+post and you'll be navigate to the home page after the respective post is deleted or if you want to edit the given post, then
+you can click on <strong>'Edit'</strong> button and you'll be redirected to the edit page where you can edit the given post. On the edit post page,
+after you have completely edit your post, click on <strong>'Update'</strong> and you'll be redirected to the home page after the respective post
+is updated . On the edit post page there is also a <strong>'Cancel'</strong> button just after the <strong>'Update'</strong> button and if you click on it then you will be  redirected to the home page without any changes in the given post.</p>
+
+
+
+<%posts.forEach(function(post){%>
+  <h1><%=post.title%></h1>
+  <h5><%= post.postedOn %></h5> 
+  <p><%=post.description.substring(0,100)+"..."%><a href="/posts/<%= post.title %>"> Read More</a></p>
+<%});%>
+
+
+<%- include("partials/footer") -%>
