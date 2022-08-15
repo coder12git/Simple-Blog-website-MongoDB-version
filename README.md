@@ -1,13 +1,16 @@
 # Simple-Blog-MongoDB version
 
-This is an exercise in [Node.js](https://nodejs.org/en/), [Express.js](https://expressjs.com/), [MongoDB](https://www.mongodb.com/), and [Mongoose](https://mongoosejs.com/). It's a simple blogging web application where one can **add new blog posts**, **view them** in their own dedicated route, and **delete them**. The posts are stored in a local MongoDB database. [EJS templating](https://ejs.co/) is used for the HTML pages, [Bootstrap v4.3](https://getbootstrap.com/docs/4.3/getting-started/introduction/) is also used, along with some custom CSS styling.  
-It's basically a backend database upgrade of [this application](https://github.com/dimitristsaknakis/simple-blog-website).  
+This is an exercise in [Node.js](https://nodejs.org/en/), [Express.js](https://expressjs.com/), [MongoDB](https://www.mongodb.com/), and [Mongoose](https://mongoosejs.com/). It's a simple blogging web application where one can **add new blog posts**, **view them** in their own dedicated route, and **delete or edit them**. The posts are stored in a local MongoDB database. [EJS templating](https://ejs.co/) is used for the HTML pages, [Bootstrap v4.3](https://getbootstrap.com/docs/4.3/getting-started/introduction/) is also used, along with some custom CSS styling.  
+It's basically a backend database.  
 
-![simple blog image 1](./public/images/simple-blog-mongodb-image1.png)  
+![simple blog image 1](./public/images/blog-1.png)  
 
-![simple blog image 2](./public/images/simple-blog-mongodb-image2.png)  
+![simple blog image 2](./public/images/blog-2.png)  
 
-It was created by following along the "[The Complete 2019 Web Development Bootcamp](https://www.udemy.com/the-complete-web-development-bootcamp/)" Udemy course, so massive credits and thank yous go there!  
+![simple blog image 2](./public/images/blog-3.png)  
+
+![simple blog image 2](./public/images/blog-4.png)  
+
 
 ---  
 
