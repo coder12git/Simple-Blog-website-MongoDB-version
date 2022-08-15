@@ -19,7 +19,7 @@ const app = express();
 
 const mongoose = require("mongoose");
 
-mongoose.connect("mongodb+srv://ruchi:Kumari123@cluster0.kdsaye1.mongodb.net/postsDB");
+mongoose.connect('mongodb://localhost:27017/postsDB);
 
 const postSchema = new mongoose.Schema({
       title : {
