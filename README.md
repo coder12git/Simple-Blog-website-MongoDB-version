@@ -25,7 +25,7 @@ In order to run this application locally you'll need to have [Node.js](https://n
 Once you **clone or download** the repository files to your desired location, open a command-line terminal, navigate into the app top-level directory, and **install the required package dependencies**.   
 
 ```bash
-$ cd simple-blog-website  # or your chosen other directory name
+$ cd Simple-Blog-website-MongoDB-version  # or your chosen other directory name
 $ npm install             # install package dependencies
 ```
 
@@ -52,8 +52,8 @@ and type "[http://localhost:3000](http://localhost:3000)" in your browser's addr
 Once you've added some posts to the blog (and thus the database), they can be verified by going to the `mongo` CLI tab:  
 
 ```bash
-> show dbs  # there should be a 'blogDB' present
-> use blogDB
+> show dbs  # there should be a 'postsDB' present
+> use postsDB
 > show collections  # there should be a 'posts' collection
 > db.posts.find()   # show all post documents in the 'posts' collection
 
